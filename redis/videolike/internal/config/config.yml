@@ -1,0 +1,5 @@
+http:
+  addr: "localhost:80"
+redis:
+  addr: "localhost:6379"
+  password: "redispass"
