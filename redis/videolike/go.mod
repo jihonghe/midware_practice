@@ -6,7 +6,10 @@ require (
 	github.com/gin-gonic/gin v1.9.0
 	github.com/redis/go-redis/v9 v9.0.2
 	github.com/spf13/viper v1.15.0
+	pkg v0.0.0
 )
+
+replace pkg => ../../pkg
 
 require (
 	github.com/bytedance/sonic v1.8.0 // indirect

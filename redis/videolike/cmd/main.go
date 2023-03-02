@@ -1,8 +1,8 @@
 package main
 
 import (
+	rediscli "pkg/redis"
 	"videolike/internal/config"
-	rediscli "videolike/internal/pkg/redis"
 	"videolike/internal/server"
 )
 

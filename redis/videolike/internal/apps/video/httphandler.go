@@ -10,7 +10,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/redis/go-redis/v9"
 
-	rediscli "videolike/internal/pkg/redis"
+	rediscli "pkg/redis"
 )
 
 func like(ctx *gin.Context) {

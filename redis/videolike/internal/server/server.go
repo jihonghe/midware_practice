@@ -9,7 +9,7 @@ import (
 
 func Run() {
 	var engin = gin.Default()
-	video.Run(engin)
+	video.Run(engin.Group("/"))
 
 	err := engin.Run(config.Config.GetString("http.addr"))
 	if err != nil {
